@@ -1,0 +1,6 @@
+
+#for usages testing arepl things
+x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+y = x.items()
+
+print(type(y))
