@@ -19,7 +19,6 @@ def re_doer():
     re_set = input('enter reg expression')
     for line in file:
         line = line.rstrip()
-        x = re.findall(re_set, line):
-        if len(x) > 0
-
+        x = re.findall(re_set, line)
+        if len(x) > 0: print(x)
 re_doer()
