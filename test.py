@@ -15,10 +15,15 @@ def fileset():
             filepath = 'mbox-short.txt'
     return filepath
 def re_doer():
-    file = open(fileset())
+    count = 0
+    filepath = fileset()
+    file = open(filepath)
     re_set = input('enter reg expression')
     for line in file:
         line = line.rstrip()
         x = re.findall(re_set, line)
-        if len(x) > 0: print(x)
+       
+        if len(x) > 0: 
+            count += 1
+    print ('{} had {} lines that matched {}'.format(filepath,count,re_set))
 re_doer()
