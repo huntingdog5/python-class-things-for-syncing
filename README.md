@@ -1,4 +1,4 @@
 # python-class-things-for-syncing
 
-Examples and some notes from the class python for everyone
+Worked exercises and some notes(chapter 12 and onward) from the class python for everyone
 https://www.py4e.com
